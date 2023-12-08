@@ -9,7 +9,7 @@ const numericSum = (input) => input.reduce((currSum, currValue) => {
   return parseInt(currSum) + parseInt(valueToAdd);
 }, 0);
 
-console.log('Part 1:', numericSum(testInput));
+console.log('Part 1 Answer:', numericSum(testInput));
 
 
 // ################################# PART 2 #################################
@@ -34,5 +34,5 @@ const convertedAlphaDigits = testInput.map((currValue) => {
   return newValue;
 });
 
-console.log('Part 2:', numericSum(convertedAlphaDigits))
+console.log('Part 2 Answer:', numericSum(convertedAlphaDigits))
 
